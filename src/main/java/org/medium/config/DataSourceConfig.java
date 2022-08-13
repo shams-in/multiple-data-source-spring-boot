@@ -23,5 +23,7 @@ public class DataSourceConfig {
         dataSource.setRegisterMbeans(true);
         dataSource.setConnectionTimeout(10000l); //10 secs
         return dataSource;
+
+        // testing
     }
 }
